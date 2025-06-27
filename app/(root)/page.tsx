@@ -17,7 +17,7 @@ const page = () => {
               Practice on Real interview questions & get instant Feedback
             </p>
             <Button asChild className='btn-primary max-sm:w-full'>
-              <Link href="/intervie"> Start and interview
+              <Link href="/interview"> Start and interview
               </Link>
             </Button>
           </div>

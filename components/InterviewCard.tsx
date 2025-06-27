@@ -43,10 +43,13 @@ const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt}: 
         <div className='flex flex-row justify-between'>
             <DisplayTechIcons techStack={techstack} />
             <Button className='btn-primary'>
-                    <Link href={feedback ? `/interview/${interviewId}/feedback`: `/interview/${interviewId}`}
+                    {/* <Link href={feedback ? `/interview/${interviewId}/feedback`: `/interview/${interviewId}`}
                     >
                         {feedback ? 'Check Feedback': 'View Interview'}
-                    </Link>
+                    </Link> */}
+                    <Link href='/interview'>
+                View Interview
+                </Link>
 
 
             </Button>
@@ -54,8 +57,6 @@ const InterviewCard = ({interviewId, userId, role, type, techstack, createdAt}: 
     </div>
 
 
-    
-    
     </div>
   )
 }
