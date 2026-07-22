@@ -1,37 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/readme-cover.png" alt="IntervueAI Banner" />
+  
+  <br />
+  <br />
+
+  # IntervueAI
+
+  **Get Interview-Ready with AI-powered Practice & Feedback**
+  <br />
+  Practice on real interview questions and receive instant, actionable feedback.
+</div>
+
+<br />
+
+## About the Project
+
+IntervueAI is an intelligent interview preparation platform designed to help candidates ace their interviews. By leveraging the power of AI, users can simulate real-world interview scenarios, answer industry-standard questions, and receive comprehensive feedback to improve their performance.
+
+### Key Features
+
+- **AI-Powered Practice:** Conduct mock interviews with an AI assistant.
+- **Instant Feedback:** Receive real-time evaluations and suggestions to refine your answers.
+- **Track Your Progress:** Keep a record of your past interviews and see how you improve over time.
+- **Modern UI/UX:** A clean, responsive, and accessible interface built with Next.js and Tailwind CSS.
+- **Dark/Light Mode:** Seamlessly switch between themes based on your preference.
+
+---
+
+## Screenshots
+
+> **Note:** Add your project screenshots below.
+
+| Dashboard | Mock Interview Session |
+| :---: | :---: |
+| <!-- TODO: Add your dashboard screenshot here --><img src="https://via.placeholder.com/500x300?text=Dashboard+Screenshot" alt="Dashboard" /> | <!-- TODO: Add your interview screenshot here --><img src="https://via.placeholder.com/500x300?text=Interview+Screenshot" alt="Mock Interview" /> |
+
+---
+
+## Tech Stack
+
+IntervueAI is built using modern web technologies to ensure high performance and scalability:
+
+- **Framework:** [Next.js 15](https://nextjs.org/) (React)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components:** [Radix UI](https://www.radix-ui.com/) & Shadcn UI
+- **AI Integrations:** [Vapi AI](https://vapi.ai/) & [AI SDK Google](https://sdk.vercel.ai/providers/ai-sdk-providers/google-generative-ai)
+- **Backend/Database:** [Firebase](https://firebase.google.com/)
+- **Forms & Validation:** [React Hook Form](https://react-hook-form.com/) & [Zod](https://zod.dev/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to set up the project locally on your machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Make sure you have Node.js installed. We recommend using `npm`, `yarn`, or `pnpm`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/IntervueAI.git
+   cd IntervueAI
+   ```
 
-## Learn More
+- **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+- **Set up environment variables:**
+   Create a `.env.local` file in the root of the project and add your required keys (Firebase, AI SDKs, etc.):
+   ```env
+   # Example environment variables
+   NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+   VAPI_PUBLIC_KEY=your_vapi_key
+   GOOGLE_AI_API_KEY=your_google_ai_key
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Open the app:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the application running.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# IntervueAI
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/IntervueAI/issues).
+
+- Fork the project.
+- Create your feature branch: `git checkout -b feature/my-new-feature`
+- Commit your changes: `git commit -m 'Add some feature'`
+- Push to the branch: `git push origin feature/my-new-feature`
+- Submit a pull request.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).

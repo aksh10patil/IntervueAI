@@ -1,3 +1,9 @@
+if (typeof global !== 'undefined' && global.localStorage && typeof global.localStorage.getItem !== 'function') {
+  try {
+    delete (global as any).localStorage;
+  } catch (e) {}
+}
+
 import type { Metadata } from "next";
 import { Mona_Sans } from "next/font/google";
 import "./globals.css";

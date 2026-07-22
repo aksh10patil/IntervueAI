@@ -1,5 +1,6 @@
 import React from 'react'
-import Agent from "@/components/Agent";
+import dynamic from 'next/dynamic'
+const Agent = dynamic(() => import('@/components/Agent'), { ssr: false });
 import { getCurrentUser } from '@/lib/actions/auth.action';
 
 const Page =  async () => {
