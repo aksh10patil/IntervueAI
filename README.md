@@ -29,11 +29,9 @@ IntervueAI is an intelligent interview preparation platform designed to help can
 
 ## Screenshots
 
-> **Note:** Add your project screenshots below.
-
-| Dashboard | Mock Interview Session |
-| :---: | :---: |
-| <!-- TODO: Add your dashboard screenshot here --><img src="https://via.placeholder.com/500x300?text=Dashboard+Screenshot" alt="Dashboard" /> | <!-- TODO: Add your interview screenshot here --><img src="https://via.placeholder.com/500x300?text=Interview+Screenshot" alt="Mock Interview" /> |
+<div align="center">
+  <img src="public/interview-interface.png" alt="Mock Interview Session" />
+</div>
 
 ---
 
